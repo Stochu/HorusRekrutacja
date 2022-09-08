@@ -21,7 +21,7 @@ public class Wall implements Structure, CompositeBlock {
     @Override
     public List<Block> findBlocksByMaterial(String material) {
         return blocks.stream()
-                .filter(block -> block.getColor().equals(material))
+                .filter(block -> block.getMaterial().equals(material))
                 .collect(Collectors.toList());
     }
 
