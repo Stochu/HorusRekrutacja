@@ -1,6 +1,6 @@
 import java.util.List;
 
-public interface CompositeBlock extends Block {
+public interface CompositeBlock {
 
-    List getBlocks();
+    List<Block> getBlocks();
 }
