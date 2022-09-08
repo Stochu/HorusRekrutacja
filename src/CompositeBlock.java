@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class CompositeBlock {
+import java.util.List;
+
+public interface CompositeBlock extends Block {
+
+    List getBlocks();
 }
