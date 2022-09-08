@@ -1,3 +1,7 @@
+Moje rozwiązanie zadania rekrutacyjnego. 
+Dodatkowo stworzyłem testy dla mojego kodu, które zamieściłem także w repozytorium (przydały się, gdyby nie one wysłałbym zadanie z poważnym błędem)
+
+Treść zadania:
 
 Poniżej przekazujemy zadanie z prośbą o analizę poniższego 
 kodu i zaimplementowanie metod findBlockByColor, findBlocksByMaterial,
