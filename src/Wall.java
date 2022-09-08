@@ -13,7 +13,9 @@ public class Wall implements Structure, CompositeBlock {
 
     @Override
     public Optional<Block> findBlockByColor(String color) {
-        return blocks.stream().filter(block -> block.getColor().equals(color)).findAny();
+        return blocks.stream()
+                .filter(block -> block.getColor().equals(color))
+                .findAny();
     }
 
     @Override
